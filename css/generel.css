@@ -13,6 +13,7 @@ img {
 }
 /* Variabler af farver */
 html {
+  --font1: "Pathway Gothic One", sans-serif;
   --green: #517d5b;
   --lys_green: #6d9467;
   --winter: #adcfe7;
@@ -25,4 +26,10 @@ html {
   --fall_skrift: #ab5200;
   --risiko: #ff988b;
   --nb: #757a7b;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Pathway Gothic One", sans-serif;
 }
