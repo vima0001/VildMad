@@ -1,13 +1,28 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin:0;
+  margin: 0;
 }
 
 img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Variabler af farver */
+html {
+  --green: #517d5b;
+  --lys_green: #6d9467;
+  --winter: #adcfe7;
+  --winter_skrift: #ffffff;
+  --spring: #afdebc;
+  --spring_skrift: #39923c;
+  --summer: #ffe5a3;
+  --summer_skrift: #f0ca01;
+  --fall: #ffbb94;
+  --fall_skrift: #ab5200;
+  --risiko: #ff988b;
+  --nb: #757a7b;
 }
