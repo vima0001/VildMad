@@ -1,0 +1,52 @@
+/* MOBIL */
+@media screen and (max-width: 768px) {
+.grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.boks1{
+    background-color: gray;
+    height: 10rem;
+}
+
+.boks2{
+    background-color: green;
+    height: 10rem;
+}
+
+/* Form felter */
+form {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: system-ui;
+    margin: 1rem;
+}
+
+label{
+    margin-bottom: 1.5rem;
+}
+
+input{
+    line-height: 1.5rem;
+}
+
+button{
+background-color: #517D5B;
+border: none;
+margin-top: 0.5rem;
+height: 2.5rem;
+width: 12rem;
+color: #ffff;
+border-radius: 2px;
+}
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+.tivoli_mobil{
+    display: none;
+}
+}
