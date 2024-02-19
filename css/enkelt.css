@@ -1,0 +1,103 @@
+/* Mobil */
+@media screen and (max-width: 768px) {
+    .svamp{ 
+        width: 50%;
+        position: absolute;
+        bottom: 3rem;
+    }
+
+    .svamp_div{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+.enkelte_boks {
+    background-color: #3D6045;
+    height: 10rem;
+}
+
+.enkelt_billeder {
+    width: 80%;
+    display: block;
+    
+}
+
+.enkelte_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.enkelt_txt {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+
+/* .arrow{
+    animation-name: pil_aktiv;
+}
+ @keyframes pil_aktiv {
+    100%{
+        transform: rotate(90deg)
+    }
+ } */
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .svamp{ 
+        width: 10%;
+        position: absolute;
+        bottom: 3rem;
+    }
+
+    .svamp_div{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+.enkelte_boks {
+    background-color: #3D6045;
+    height: 10rem;
+}
+
+.enkelt_billeder {
+    width: 50%;
+}
+
+.enkelte_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    
+}
+
+.enkelt_txt {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    
+}
+
+.nb_grid{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr;
+}
+
+.nb_farve{
+    background-color: #3D6045;
+    color: #3D6045;
+    line-height: 3rem;
+}
+
+.nb{
+     background-color: #3d604555;
+     text-align: center;
+     line-height: 3rem;
+
+}
+}
