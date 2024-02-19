@@ -1,0 +1,37 @@
+body {
+  background-color: var(--summer);
+}
+
+/* main {
+  overflow: hidden;
+} */
+
+header {
+  background-color: white;
+}
+
+.overskrift {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.vendespil {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+  padding-bottom: 5%;
+}
+/* computer */
+@media (min-width: 800px) {
+  .overskrift {
+    width: 40%;
+  }
+  /* 6 rækker */
+  .vendespil {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5%;
+    margin-bottom: 5%;
+  }
+}

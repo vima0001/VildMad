@@ -1,0 +1,59 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.overskrift {
+  position: absolute;
+  top: 1rem;
+  left: 40rem;
+}
+
+.tekst {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.tekst1 {
+  text-align: center;
+  padding-top: 15rem;
+}
+
+.dropdown button {
+  color: green;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  border: none;
+}
+
+.dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: rgb(187, 187, 187);
+  min-width: 12rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.373);
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.dropdown:hover a {
+  background-color: rgba(145, 196, 170, 0.634);
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.karl {
+  max-height: 60%;
+  padding-top: 3rem;
+}
