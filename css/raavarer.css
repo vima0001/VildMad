@@ -12,7 +12,7 @@
 .tekst {
   max-width: 700px;
   margin: auto;
-  padding: auto;
+  /* padding: auto; */
 }
 .tekst1 {
   text-align: center;
@@ -69,12 +69,20 @@
 .grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  gap: 25px;
+  position: relative;
+  margin: 5%;
 }
+
+/* .smallFood {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+} */
 
 /*ændrer grid ved mindre skærmstørrelser*/
 @media (max-width: 800px) {
-  .grid3 {
+  .smallFood {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;

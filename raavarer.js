@@ -3,17 +3,20 @@ fetch("https://tamnyujkkpzvesfbwiez.supabase.co/rest/v1/R%C3%A5varer?apikey=eyJh
   .then(showFoods);
 
 function showFoods(foods) {
+  console.log("foods", foods);
   //Looper og viser 1 food
   foods.forEach(showFood);
 }
 
 function showFood(food) {
-  console.log(food);
+  console.log("madder");
   //Går i HTML og fanger templaten
-  const template = document.querySelector("#smallFoodTemplate").textContent;
+  const template = document.querySelector("#foodTemplate").content;
   const copy = template.cloneNode(true);
-  copy.querySelector("h3_overskrift").textContent = food.name;
-  copy.querySelector("h4_overskrift").textContent = food.catgories;
+  copy.querySelector(".h3_overskrift").textContent = food.name;
+  copy.querySelector(".h4_overskrift").textContent = food.catgories;
+  //Billedet skifter ikke fordi linket driller
+  // document.querySelector(".main_img").src = `https://vildmadv2.vps.webdock.io/application/files/4316/2436/${food.id}.png`;
   document.querySelector("main").appendChild(copy);
 }
 
