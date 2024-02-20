@@ -94,12 +94,17 @@
 
 const images = ["img/brun_skaelrorhat.png", "img/brunstokket.png", "img/ostershat.png", "img/morkel.png", "img/pigsvamp.png", "img/havtorn.png", "img/hindbaer.png"];
 const shuffledImages = images.concat(images).sort(() => Math.random() - 0.5);
+const startScreen = document.querySelector("#start");
+const summerScreen = document.querySelector("#summercolors");
+const springScreen = document.querySelector("#springcolors");
+const fallScreen = document.querySelector("#fallcolors");
+const winterScreen = document.querySelector("#wintercolors");
 
 let openBoxes = [];
 
 shuffledImages.forEach((image) => {
   let box = document.createElement("div");
-  box.className = "item";
+  box.className = "summeritem";
   let img = document.createElement("img");
   img.src = image;
   img.alt = "Memory card";

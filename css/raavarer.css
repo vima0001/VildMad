@@ -54,6 +54,18 @@
 .dropdown:hover a {
   background-color: rgba(145, 196, 170, 0.634);
 }
+
+.søgBox {
+  position: relative;
+  width: 400px;
+  height: 50px;
+  background-color: rgb(235, 235, 235);
+  left: 35%;
+  margin-top: 10px;
+  color: green;
+  padding: 10px;
+}
+
 .grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -76,4 +88,9 @@
 .karl {
   max-height: 60%;
   padding-top: 3rem;
+}
+
+.footer_text {
+  text-align: center;
+  color: var(--green);
 }
