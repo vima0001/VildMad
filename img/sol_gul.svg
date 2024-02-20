@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ba8a3f;
+        stroke: #ba8a3f;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="496.44" cy="495.01" r="185.94"/>
+  <rect class="cls-1" x="494.56" y="152.27" width="19.78" height="122.81" rx="9.89" ry="9.89"/>
+  <rect class="cls-1" x="639.49" y="193.94" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(241.24 -310.62) rotate(32.74)"/>
+  <rect class="cls-1" x="733.16" y="299.86" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(684.38 -462.87) rotate(60)"/>
+  <rect class="cls-1" x="344.85" y="189.16" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(789.04 250.2) rotate(144.72)"/>
+  <rect class="cls-1" x="241.23" y="299.86" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(690.8 345.39) rotate(122.74)"/>
+  <rect class="cls-1" x="733.16" y="561.99" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(1654.45 291.6) rotate(120)"/>
+  <rect class="cls-1" x="647.21" y="662.37" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(1620.41 890.11) rotate(142.03)"/>
+  <rect class="cls-1" x="252.68" y="591.73" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(696.92 99.18) rotate(60)"/>
+  <rect class="cls-1" x="360.04" y="685.43" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(422.98 -84.91) rotate(30)"/>
+  <rect class="cls-1" x="762.82" y="438.6" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(272.7 1272.7) rotate(-90)"/>
+  <rect class="cls-1" x="206.22" y="446.25" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(-291.55 723.76) rotate(-90)"/>
+  <rect class="cls-1" x="510.02" y="714.81" width="19.78" height="122.81" rx="9.89" ry="9.89" transform="translate(1094.05 1513.22) rotate(175.9)"/>
+</svg>
