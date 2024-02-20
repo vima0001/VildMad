@@ -48,7 +48,7 @@
 }
 
 .dropdown button {
-  color: green;
+  color: var(--green);
   padding: 1rem 4rem;
   cursor: pointer;
   border: none;
@@ -56,7 +56,7 @@
 
 .dropdown a {
   display: block;
-  color: black;
+  color: var(--green);
   text-decoration: none;
   padding: 10px 15px;
 }
@@ -64,7 +64,7 @@
 .dropdown .content {
   display: none;
   position: absolute;
-  background-color: rgb(187, 187, 187);
+  background-color: rgb(255, 255, 255);
   min-width: 12rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.373);
 }
@@ -73,8 +73,8 @@
   display: block;
 }
 
-.dropdown:hover a {
-  background-color: rgba(145, 196, 170, 0.634);
+.dropdown a:hover {
+  background-color: #517d5b14;
 }
 .grid3 {
   display: grid;
