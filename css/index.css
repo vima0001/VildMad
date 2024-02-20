@@ -1,34 +1,34 @@
 /* MOBIL */
 @media screen and (max-width: 768px) {
-.grid_1_1 {
+  .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+  }
 
-.boks1{
-    background-color: #6D9467;
+  .boks1 {
+    background-color: #6d9467;
     height: 10rem;
     text-align: center;
     padding-top: 4.5rem;
     color: #ffff;
     font-family: "Pathway Gothic One", sans-serif;
-}
+  }
 
-.boks2{
-    background-color: #517D5B;
+  .boks2 {
+    background-color: #517d5b;
     height: 10rem;
     text-align: center;
     padding-top: 4.5rem;
     color: #ffff;
     font-family: "Pathway Gothic One", sans-serif;
-}
+  }
 
-.tivoli_desktop{
+  .tivoli_desktop {
     display: none;
-}
+  }
 
-/* Form felter */
-form {
+  /* Form felter */
+  form {
     display: flex;
     flex-direction: column;
     display: grid;
@@ -36,85 +36,85 @@ form {
     font-family: system-ui;
     margin: 1rem;
     line-height: 2rem;
-}
+  }
 
-label{
+  label {
     margin-bottom: 1.5rem;
-}
+  }
 
-input{
+  input {
     line-height: 1.5rem;
-}
-.pick_school{
+  }
+  .pick_school {
     display: flex;
     flex-direction: column;
     display: grid;
     grid-template-columns: 1fr;
-}
+  }
 
-button{
-background-color: #517D5B;
-border: none;
-margin-top: 1.5rem;
-height: 2.5rem;
-width: 12rem;
-color: #ffff;
-border-radius: 2px;
-}
+  button {
+    background-color: #517d5b;
+    border: none;
+    margin-top: 1.5rem;
+    height: 2.5rem;
+    width: 12rem;
+    color: #ffff;
+    border-radius: 2px;
+  }
 
-h1{
+  h1 {
     font-family: "Pathway Gothic One", sans-serif;
     text-align: center;
     margin: 2rem;
-}
+  }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 768px) {
-.grid_1_1 {
+  .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 6rem;
-}
+  }
 
-.boks1{
-    background-color: #6D9467;
+  .boks1 {
+    background-color: #6d9467;
     height: 20rem;
     text-align: center;
     padding-top: 9rem;
     color: #ffff;
     font-family: "Pathway Gothic One", sans-serif;
-}
+  }
 
-.boks2{
-    background-color: #517D5B;
+  .boks2 {
+    background-color: #517d5b;
     height: 20rem;
     text-align: center;
     padding-top: 9rem;
     color: #ffff;
     font-family: "Pathway Gothic One", sans-serif;
-}
+  }
 
-.tivoli_mobil{
+  .tivoli_mobil {
     display: none;
-}
+  }
 
-.grid_1_1_tivoli{
+  .grid_1_1_tivoli {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+  }
 
-.tivoli_desktop{
+  .tivoli_desktop {
     width: 50%;
-}
+  }
 
-.tivoli_desktop_div{
+  .tivoli_desktop_div {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-form {
+  form {
     display: flex;
     flex-direction: column;
     display: grid;
@@ -122,21 +122,21 @@ form {
     font-family: system-ui;
     margin: 1rem;
     line-height: 2rem;
-}
+  }
 
-label {
+  label {
     margin-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
     margin: 1rem;
-}
+  }
 
-input {
+  input {
     line-height: 1.5rem;
-}
+  }
 
-button{
-    background-color: #517D5B;
+  button {
+    background-color: #517d5b;
     border: none;
     margin-top: 2.5rem;
     margin-left: 1rem;
@@ -144,12 +144,15 @@ button{
     color: #ffff;
     border-radius: 2px;
     margin-right: 1rem;
-}
+  }
 
-h1{
+  h1 {
     font-family: "Pathway Gothic One", sans-serif;
     text-align: center;
     margin: 2rem;
+  }
 }
-
+.footer_text {
+  text-align: center;
+  color: var(--green);
 }

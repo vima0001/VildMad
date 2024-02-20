@@ -1,7 +1,6 @@
-
 /* Mobile menu */
 @media screen and (max-width: 768px) {
-  .menu_desktop{
+  .menu_desktop {
     display: none;
   }
 
@@ -9,30 +8,30 @@
     display: none;
   }
 
- #underline_container2{
+  #underline_container2 {
     font-size: 24px;
     align-items: inherit;
- }
+  }
 
-  nav{
+  nav {
     display: flex;
   }
 
-  .burger{
-    display:block;
+  .burger {
+    display: block;
   }
-  .logo img{
+  .logo img {
     width: 50%;
     height: 50%;
   }
 
-  header{
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
   }
-  
+
   .burger {
     display: block;
   }
@@ -76,148 +75,141 @@
     text-decoration: none;
     display: block;
     padding: 10px;
-    color: #517D5B;
+    color: #517d5b;
     text-decoration: none;
     transition: color 0.3s;
-  
   }
 
   .burger {
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-  
-}
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
 
-.burger .line {
-  width: 100%;
-  height: 2px;
-  background-color: #517D5B;
-  margin-bottom: 5px;
-  transition: 0.2s linear;
-  
-}
+  .burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #517d5b;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
 
-.menu a:hover{
+  .menu a:hover {
     font-weight: bold;
-    color: #517D5B;
-    
-}
+    color: #517d5b;
+  }
 
-.logo{
+  .logo {
     display: flex;
     align-items: end;
     right: 10px;
-}
-
+  }
 }
 
 /* ----------------------------------------------DESKTOP---------------------------------------------- */
-@media screen and (min-width: 768px){
-/* Style af dropdown */
+@media screen and (min-width: 768px) {
+  /* Style af dropdown */
   .dropdown {
     position: relative;
     /* display: inline-block; */
-    }
+  }
 
-/* Styling af dropdown knap */
-    .dropdown_btn {
+  /* Styling af dropdown knap */
+  .dropdown_btn {
     text-decoration: none;
     color: black;
-    }
+  }
 
-/* Style af dropdown indhold */
-    .dropdown_content {
+  /* Style af dropdown indhold */
+  .dropdown_content {
     display: none;
     position: absolute;
-    background-color: #FAF8F1;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    background-color: #faf8f1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    }
+  }
 
-    /* Style af dropdown links */
-    .dropdown_content a {
+  /* Style af dropdown links */
+  .dropdown_content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-        }
+  }
 
-    /* Ændring af farve når man hover */
-    .dropdown_content a:hover {
+  /* Ændring af farve når man hover */
+  .dropdown_content a:hover {
     background-color: #f1f1f1;
-    color: #0A2CA5;
-    }
+    color: #0a2ca5;
+  }
 
-/* Display af dropdown content når man hover over dropdown knappen */
-    .dropdown:hover .dropdown_content {
+  /* Display af dropdown content når man hover over dropdown knappen */
+  .dropdown:hover .dropdown_content {
     display: block;
-    }
+  }
 
-    .logo img{
-    width: 50%;
+  .logo img {
+    width: 10%;
     height: 50%;
-    
-    }
+  }
 
-  header{
+  header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    }
-    
-  .menu{
+  }
+
+  .menu {
     display: flex;
     list-style: none;
     font-family: "futura";
-}
+  }
 
-  .menu li{
+  .menu li {
     margin-right: 70px;
     display: block;
     white-space: inherit;
-  
-}
-nav{
+  }
+  nav {
     display: flex;
     align-items: center;
     text-decoration: none;
-}
-a{
+  }
+  a {
     text-decoration: none;
-    color: black;
-}
-/* -----------------understregning----------------- */
-#underline-container {
+    color: var(--green);
+  }
+  /* -----------------understregning----------------- */
+  #underline-container {
     position: relative;
     font-size: 24px;
-}
-#underline-container2 {
+  }
+  #underline-container2 {
     position: relative;
     font-size: 24px;
-}
+  }
 
-.underline {
+  .underline {
     position: relative;
     cursor: pointer;
-}
+  }
 
-.underline::before {
+  .underline::before {
     content: "";
     position: absolute;
     bottom: 0;
     left: 0;
     width: 0;
     height: 2px;
-    background-color: #517D5B; /* Farven på stregen */
+    background-color: #517d5b; /* Farven på stregen */
     transition: width 0.3s ease;
-}
+  }
 
-.underline:hover::before {
+  .underline:hover::before {
     width: 100%;
-}
-.underline.clicked::before {
+  }
+  .underline.clicked::before {
     width: 100%;
+  }
 }
-    }
