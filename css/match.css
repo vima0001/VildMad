@@ -86,3 +86,9 @@
   max-height: 60%;
   padding-top: 3rem;
 }
+
+.wave {
+  rotate: 180deg;
+  margin: 0;
+  width: 100%;
+}
