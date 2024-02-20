@@ -34,3 +34,14 @@ h2,
 h3 {
   font-family: "Pathway Gothic One", sans-serif;
 }
+
+/* --------------- Styling af a-tags --------------- */
+/* Bestemmer at der ikke skal være nogen styling af links, de skal ikke understreges og 
+heller ikke se anderledes ud efter de er blevet klikket på */
+a {
+  text-decoration: none;
+}
+
+a::after {
+  text-decoration: none;
+}
