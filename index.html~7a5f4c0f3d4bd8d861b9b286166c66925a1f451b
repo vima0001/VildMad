@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Forside</title>
+  </head>
+
+  <body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+              <img src="img/logo2.svg" alt="Logo" />
+            </a>
+          </div>
+          <nav>
+            <ul class="menu" id="underline_container">
+              <li class="underline">
+                <a href="spil_forside.html">Foreaging game</a>
+              </li>
+              <li class="underline"><a href="enkelt.html">Foreaging food</a></li>
+              <li class="underline"><a href="#">Recipes</a></li>
+            </ul>
+            <div class="burger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+          </nav>
+      </div>
+     
+    </header>
+
+    <main>
+      <img src="img/placeholder.png" alt="" />
+      <div class="grid_1_1">
+        <a href="spil.html">
+          <div class="boks1">Play the foraging game</div>
+        </a>
+        <div class="boks2">See foreaging food</div>
+      </div>
+      <img src="img/tivoli.png" alt="" class="tivoli_mobil" />
+      <div class="grid_1_1_tivoli">
+        <div>
+          <h1>
+            Participate in our competition and win a trip to Tivoli for your
+            entire class!
+          </h1>
+          <form name="Login" method="POST">
+            <!-- <label for="email">Skole <input type="text" name="name" id="email_brugernavn" required placeholder="Vælg din skole her"></label> -->
+            <label for="first name">First name <input type="text" name="email" id="email" required
+                placeholder="Write your first name here"></label>
+
+        <label for="last name">Last name <input type="text" name="email" id="email" required
+                placeholder="Write your last name here"></label>
+            
+            
+
+              <label for="mail">Mail <input type="text" name="email" id="email" required
+                placeholder="Write your mail here"></label>
+
+                <label for="skole" id="pick_school">
+                    Pick your School
+              <select name="skole" id="skole">
+                <option>School</option>
+                <option>School</option>
+                <option>School</option>
+                <option>School</option>
+                <option>School</option>
+                <option>School</option>
+              </select>
+            </label>
+
+            <label for="grade" id="klassetrin">Pick your grade
+                <select name="skole" id="skole">
+                    <option>School</option>
+                    <option>School</option>
+                    <option>School</option>
+                    <option>School</option>
+                    <option>School</option>
+                    <option>School</option>
+                </select></label>
+            
+                    
+            <button>Enter</button>
+          </form>
+        </div>
+        <div class="tivoli_desktop_div">
+        <img src="img/tivoli_desktop.webp" alt="" class="tivoli_desktop">
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer_text">
+        <h2>Need help?</h2>
+        <h3>Ate something you shouldn't have?</h3>
+      </div>
+      <h3>Contact</h3>
+      <p>vild.mad@gmail.com</p>
+    </footer>
+    <script src="menu.js"></script>
+  </body>
+</html>

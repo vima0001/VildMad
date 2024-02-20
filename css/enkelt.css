@@ -1,0 +1,162 @@
+/* Mobil */
+@media screen and (max-width: 768px) {
+    .enkelte_baggrund_desktop{
+        display: none;
+    }
+    .svamp{ 
+        width: 50%;
+        position: absolute;
+        /* top: 10rem;
+        right: 3rem; */
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    
+
+    .svamp_div{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+.enkelte_boks {
+    background-color: #3D6045;
+    height: 10rem;
+}
+
+.enkelt_billeder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}  
+
+.enkelte_section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.enkelt_txt {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    
+}
+
+.nb_grid{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr;
+}
+
+.nb_farve{
+    background-color: #283436;
+    color: #283436;
+    line-height: 3rem;
+}
+
+.nb{
+     background-color: #28343652;
+     text-align: center;
+     line-height: 3rem;
+
+}
+.fare{
+    background-color: #FFD3CD;
+    text-align: center;
+     line-height: 3rem;
+}
+.fare_farve{
+    background-color: #FF8B7C;
+    color: #FF8B7C;
+    line-height: 3rem;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+.enkelte_baggrund_mobil{
+    display: none;
+}
+
+    .enkelte_baggrund_desktop{
+    opacity: 70%;
+    margin-bottom: 0;
+}
+    .svamp{ 
+        width: 20%;
+        position: absolute;
+        bottom: 3rem;
+        right: 10rem;
+    }
+
+
+.enkelte_boks {
+    background-color: #3D6045;
+    height: 10rem;
+    margin-top: -2rem;
+}
+
+.info{
+    line-height: 5rem;
+    text-align: center;
+}
+
+.enkelt_billeder {
+    width: 50%;
+}
+
+.enkelte_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    
+}
+
+/* .enkelt_billeder {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+.enkelt_txt {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    align-content: baseline;
+    
+}
+
+.nb_grid{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.5fr;
+}
+
+.nb_farve{
+    background-color: #283436;
+    color: #283436;
+    line-height: 3rem;
+}
+
+.nb{
+     background-color: #28343652;
+     text-align: center;
+     line-height: 3rem;
+
+}
+.fare{
+    background-color: #FFD3CD;
+    text-align: center;
+     line-height: 3rem;
+}
+.fare_farve{
+    background-color: #FF8B7C;
+    color: #FF8B7C;
+    line-height: 3rem;
+}
+
+
+}

@@ -1,0 +1,110 @@
+header {
+  background-color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.winter {
+  background-color: var(--winter);
+  color: var(--winter_skrift);
+}
+
+.spring {
+  background-color: var(--spring);
+  color: var(--spring_skrift);
+}
+
+.summer {
+  background-color: var(--summer);
+  color: var(--summer_skrift);
+}
+
+.fall {
+  background-color: var(--fall);
+  color: var(--fall_skrift);
+}
+
+.season {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  text-align: center;
+}
+
+.all_seasons {
+  padding: 2% 0%;
+  /* padding-bottom: 1%; */
+}
+
+.all_seasons img {
+  width: 15%;
+  margin: auto;
+}
+
+.ikon {
+  aspect-ratio: 125/148;
+}
+
+/* computer */
+@media (min-width: 800px) {
+  h2 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  .season {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+  }
+  /* .all_seasons {
+    padding: 50% 15%;
+  } */
+
+  .all_seasons img {
+    width: 100%;
+  }
+
+  .txt_season {
+    padding-top: 5%;
+  }
+
+  .winter .image-container,
+  .summer .image-container,
+  .fall .image-container,
+  .spring .image-container {
+    position: relative;
+    width: 100%;
+    padding: 50% 15%;
+  }
+
+  .winter .image-container .hover-img,
+  .summer .image-container .hover-img,
+  .fall .image-container .hover-img,
+  .spring .image-container .hover-img {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    box-shadow: 2px 5px 5px rgb(195, 195, 195);
+  }
+
+  .winter .image-container:hover .hover-img,
+  .summer .image-container:hover .hover-img,
+  .fall .image-container:hover .hover-img,
+  .spring .image-container:hover .hover-img {
+    opacity: 1;
+  }
+}
+
+/* Fjerner hovereffekt på mobil */
+@media (max-width: 800px) {
+  .winter .image-container .hover-img,
+  .summer .image-container .hover-img,
+  .fall .image-container .hover-img,
+  .spring .image-container .hover-img {
+    display: none;
+  }
+}
