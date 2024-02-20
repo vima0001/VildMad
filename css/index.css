@@ -183,3 +183,7 @@ video {
   left: 100vh;
   top: -30%;
 }
+
+.half_wave {
+  position: relative;
+}
