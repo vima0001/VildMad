@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sankespillet</title>
-    <link rel="stylesheet" href="css/spil.css" />
-    <link rel="stylesheet" href="css/generel.css" />
-    <link rel="stylesheet" href="css/menu.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header>
-      <div class="logo">
-        <a href="index.html">
-          <img src="img/logo2.svg" alt="Logo" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sankespillet</title>
+  <link rel="stylesheet" href="css/spil.css" />
+  <link rel="stylesheet" href="css/generel.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo2.svg" alt="Logo" />
+      </a>
+    </div>
+    <nav>
+      <ul class="menu" id="underline_container">
+        <li class="underline">
+          <a href="spil.html">Foraging game</a>
+        </li>
+        <li class="underline"><a href="raavarer.html">Foraging food</a></li>
+        <li class="underline"><a href="#">Recipes</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      <nav>
-        <ul class="menu" id="underline_container">
-          <li class="underline">
-            <a href="spil.html">Foraging game</a>
-          </li>
-          <li class="underline"><a href="raavarer.html">Foraging food</a></li>
-          <li class="underline"><a href="#">Recipes</a></li>
-        </ul>
-        <div class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </div>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
-    <main>
-      <!-- <img src="img/overskrift.png" alt="" class="overskrift">
+  <main>
+    <!-- <img src="img/overskrift.png" alt="" class="overskrift">
         <section class="vendespil">
             <img src="img/vendespil.png" alt="vendespil">
             <img src="img/vendespil.png" alt="vendespil">
@@ -53,105 +51,106 @@
             <img src="img/vendespil.png" alt="vendespil">
         </section> -->
 
-      <!-- startscreen -->
-      <section class="season hide">
-        <article class="winter all_seasons">
-          <div class="image-container">
-            <img src="img/snefnug3.svg" alt="" class="main-img ikon" />
-            <img src="img/city_winter.png" alt="" class="hover-img" />
-            <h2 class="txt_season">Winter</h2>
-          </div>
-        </article>
-
-        <article class="spring all_seasons">
-          <div class="image-container">
-            <img src="img/tulipan2.svg" alt="" class="main-img ikon" />
-            <img src="img/forest_summer.png" alt="" class="hover-img" />
-            <h2 class="txt_season">Spring</h2>
-          </div>
-        </article>
-        <article class="summer all_seasons">
-          <div class="image-container">
-            <img src="img/sol2.svg" alt="" class="main-img ikon" />
-            <img src="img/openfield_summer.png" alt="" class="hover-img" />
-            <h2 class="txt_season">Summer</h2>
-          </div>
-        </article>
-        <article class="fall all_seasons">
-          <div class="image-container">
-            <img src="img/blad2.svg" alt="" class="main-img ikon" />
-            <img src="img/beach_autumn.png" alt="" class="hover-img" />
-            <h2 class="txt_season">Fall</h2>
-          </div>
-        </article>
-      </section>
-
-      <!-- summer -->
-      <section class="summertheme hide">
-        <div class="summercolors">
-          <div class="summercontainer">
-            <button class="summer_btn" onclick="window.location.reload();">
-              <img src="img/summer_btn.svg" alt="Tilbageknap" />
-            </button>
-            <h2>Sankespillet</h2>
-            <div class="game"></div>
-            <button class="summerreset" onclick="window.location.reload();">
-              Reset game
-            </button>
-          </div>
+    <!-- startscreen -->
+    <section class="season hide">
+      <article class="winter all_seasons">
+        <div class="image-container">
+          <img src="img/snefnug3.svg" alt="" class="main-img ikon" />
+          <img src="img/city_winter.png" alt="" class="hover-img" />
+          <h2 class="txt_season">Winter</h2>
         </div>
-      </section>
+      </article>
 
-      <!-- winter -->
-      <section class="wintertheme hide">
-        <div class="wintercolors">
-          <div class="wintercontainer">
-            <button class="winter_btn" onclick="window.location.reload();">
-              <img src="img/winter_btn.svg" alt="Tilbageknap" />
-            </button>
-            <h2>Sankespillet</h2>
-            <div class="game"></div>
-            <button class="winterreset" onclick="window.location.reload();">
-              Reset game
-            </button>
-          </div>
+      <article class="spring all_seasons">
+        <div class="image-container">
+          <img src="img/tulipan2.svg" alt="" class="main-img ikon" />
+          <img src="img/forest_summer.png" alt="" class="hover-img" />
+          <h2 class="txt_season">Spring</h2>
         </div>
-      </section>
-
-      <!-- spring -->
-      <section class="springtheme hide">
-        <div class="springcolors">
-          <div class="springcontainer">
-            <button class="spring_btn" onclick="window.location.reload();">
-              <img src="img/spring_btn.svg" alt="Tilbageknap" />
-            </button>
-            <h2>Sankespillet</h2>
-            <div class="game"></div>
-            <button class="springreset" onclick="window.location.reload();">
-              Reset game
-            </button>
-          </div>
+      </article>
+      <article class="summer all_seasons">
+        <div class="image-container">
+          <img src="img/sol2.svg" alt="" class="main-img ikon" />
+          <img src="img/openfield_summer.png" alt="" class="hover-img" />
+          <h2 class="txt_season">Summer</h2>
         </div>
-      </section>
-
-      <!-- fall -->
-      <section class="falltheme hide">
-        <div class="fallcolors">
-          <div class="fallcontainer">
-            <button class="fall_btn" onclick="window.location.reload();">
-              <img src="img/autumn_btn.svg" alt="Tilbageknap" />
-            </button>
-            <h2>Sankespillet</h2>
-            <div class="game"></div>
-            <button class="fallreset" onclick="window.location.reload();">
-              Reset game
-            </button>
-          </div>
+      </article>
+      <article class="fall all_seasons">
+        <div class="image-container">
+          <img src="img/blad2.svg" alt="" class="main-img ikon" />
+          <img src="img/beach_autumn.png" alt="" class="hover-img" />
+          <h2 class="txt_season">Fall</h2>
         </div>
-      </section>
-    </main>
+      </article>
+    </section>
 
-    <script src="menu.js"></script>
-    <script src="spil.js"></script>
-  </body>
+    <!-- summer -->
+    <section class="summertheme hide">
+      <div class="summercolors">
+        <div class="summercontainer">
+          <button class="summer_btn" onclick="window.location.reload();">
+            <img src="img/summer_btn.svg" alt="Tilbageknap" />
+          </button>
+          <h2>Sankespillet</h2>
+          <div class="game"></div>
+          <button class="summerreset" onclick="window.location.reload();">
+            Reset game
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- winter -->
+    <section class="wintertheme hide">
+      <div class="wintercolors">
+        <div class="wintercontainer">
+          <button class="winter_btn" onclick="window.location.reload();">
+            <img src="img/winter_btn.svg" alt="Tilbageknap" />
+          </button>
+          <h2>Sankespillet</h2>
+          <div class="game"></div>
+          <button class="winterreset" onclick="window.location.reload();">
+            Reset game
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- spring -->
+    <section class="springtheme hide">
+      <div class="springcolors">
+        <div class="springcontainer">
+          <button class="spring_btn" onclick="window.location.reload();">
+            <img src="img/spring_btn.svg" alt="Tilbageknap" />
+          </button>
+          <h2>Sankespillet</h2>
+          <div class="game"></div>
+          <button class="springreset" onclick="window.location.reload();">
+            Reset game
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- fall -->
+    <section class="falltheme hide">
+      <div class="fallcolors">
+        <div class="fallcontainer">
+          <button class="fall_btn" onclick="window.location.reload();">
+            <img src="img/autumn_btn.svg" alt="Tilbageknap" />
+          </button>
+          <h2>Sankespillet</h2>
+          <div class="game"></div>
+          <button class="fallreset" onclick="window.location.reload();">
+            Reset game
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="menu.js"></script>
+  <script src="spil.js"></script>
+</body>
+
 </html>
