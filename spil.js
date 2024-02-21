@@ -13,7 +13,7 @@ const fallScreen = document.querySelector(".falltheme");
 
 let openBoxes = [];
 
-// försök på visa förstasidan och gömma de andra
+// visa förstasidan och gömma de andra
 function sidenVises() {
   console.log("sidenVises");
 
