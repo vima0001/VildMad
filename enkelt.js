@@ -7,7 +7,6 @@
 const urlParams = new URLSearchParams(window.location.search);
 console.log("urlParams", urlParams);
 const id = urlParams.get("id");
-// const id = 1;
 
 fetch(`https://tamnyujkkpzvesfbwiez.supabase.co/rest/v1/Raavarer?id=eq.${id}`, {
   method: "GET",
