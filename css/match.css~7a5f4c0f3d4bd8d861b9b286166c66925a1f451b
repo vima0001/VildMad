@@ -9,20 +9,42 @@
   left: 40rem;
 }
 
+.match_top_left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.match_top_right {
+  position: absolute;
+  top: 10%;
+  left: 75%;
+}
+
+.match_btm_left {
+  position: absolute;
+  left: 20%;
+  top: 60%;
+}
+.match_btm_right {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
+
+.match_mid {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
 .tekst {
-  max-width: 700px;
-  margin: auto;
-  /* padding: auto; */
+  padding-left: 300px;
+  padding-right: 300px;
 }
 .tekst1 {
   text-align: center;
   padding-top: 15rem;
-}
-
-.dropdownGrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
 }
 
 .dropdown button {
@@ -54,43 +76,10 @@
 .dropdown:hover a {
   background-color: rgba(145, 196, 170, 0.634);
 }
-
-.søgBox {
-  position: relative;
-  width: 400px;
-  height: 50px;
-  background-color: rgb(235, 235, 235);
-  left: 35%;
-  margin-top: 10px;
-  color: green;
-  padding: 10px;
-}
-
 .grid3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 25px;
-  position: relative;
-  margin: 5%;
-}
-
-/* .smallFood {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-} */
-
-/*ændrer grid ved mindre skærmstørrelser*/
-@media (max-width: 800px) {
-  .smallFood {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-  }
-  .dropdownGrid {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
 }
 
 .karl {
@@ -98,7 +87,8 @@
   padding-top: 3rem;
 }
 
-.footer_text {
-  text-align: center;
-  color: var(--green);
+.wave {
+  rotate: 180deg;
+  margin: 0;
+  width: 100%;
 }

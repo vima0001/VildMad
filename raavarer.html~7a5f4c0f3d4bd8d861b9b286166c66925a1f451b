@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/raavarer.css" />
+  <link rel="stylesheet" href="css/generel.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="container">
+      <img src="https://unsplash.it/1400/800" alt="" />
+      <h1 class="overskrift">Your matches</h1>
+    </div>
+
+    <h2 class="tekst1">Introduction</h2>
+    <p class="tekst">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
+      quibusdam ut, quasi excepturi libero itaque commodi est. Nobis atque
+      maxime pariatur tenetur dolores beatae consequatur repudiandae, nisi
+      deserunt reiciendis sint?
+    </p>
+    <h2 style="text-align: center; padding-top: 5rem">Alle råvarer</h2>
+    <section class="dropdownGrid">
+      <div class="dropdown">
+        <button>Landscape</button>
+        <div class="content">
+          <a href="">Sommer</a>
+          <a href="">Efterår</a>
+          <a href="">Vinter</a>
+          <a href="">Forår</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button>Type</button>
+        <div class="content">
+          <a href="">Sommer</a>
+          <a href="">Efterår</a>
+          <a href="">Vinter</a>
+          <a href="">Forår</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button>A - Z</button>
+        <div class="content">
+          <a href="">Sommer</a>
+          <a href="">Efterår</a>
+          <a href="">Vinter</a>
+          <a href="">Forår</a>
+        </div>
+      </div>
+    </section>
+    <section class="grid3">
+      <img class="karl" src="img/karlJohan.svg" alt="" />
+      <img class="karl" src="img/karlJohan.svg" alt="" />
+      <img class="karl" src="img/karlJohan.svg" alt="" />
+    </section>
+  </main>
+  <footer>
+    </footer< /body>
+
+</html>
