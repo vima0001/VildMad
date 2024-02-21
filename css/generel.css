@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+header {
+  background-color: white;
+}
+
 img {
   width: 100%;
   height: auto;
@@ -53,4 +57,22 @@ a {
 
 a::after {
   text-decoration: none;
+}
+
+/*footer*/
+.img_footer {
+  width: 8%;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_text {
+  text-align: center;
+}
+
+footer {
+  color: var(--green);
 }

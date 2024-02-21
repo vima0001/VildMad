@@ -1,119 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/raavarer.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Modak&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/raavarer.css" />
-  <link rel="stylesheet" href="css/generel.css" />
-  <link rel="stylesheet" href="css/menu.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
-  <title>Document</title>
-</head>
-
-<body>
-  <header>
-    <div class="logo">
-      <a href="index.html">
-        <img src="img/vildmad_logo.png" alt="Logo" />
-      </a>
-    </div>
-    <nav>
-      <ul class="menu" id="underline_container">
-        <li class="underline">
-          <a href="spil_forside.html">Foreaging game</a>
-        </li>
-        <li class="underline"><a href="enkelt.html">Foreaging food</a></li>
-        <li class="underline"><a href="#">Recipes</a></li>
-      </ul>
-      <div class="burger">
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo2.svg" alt="Logo" />
+        </a>
       </div>
-    </nav>
-  </header>
-  <main>
-    <!-- <div class="container">
+      <nav>
+        <ul class="menu" id="underline_container">
+          <li class="underline">
+            <a href="spil.html">Foraging game</a>
+          </li>
+          <li class="underline"><a href="raavarer.html">Foraging food</a></li>
+          <li class="underline"><a href="#">Recipes</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- <div class="container">
       <img src="https://unsplash.it/1400/800" alt="" />
       <h1 class="overskrift">Ingredients</h1>
     </div> -->
-    <h1 class="h1_overskrift">Ingredients</h1>
-    <h2 class="tekst1">Introduction</h2>
-    <p class="tekst">
-      Below you can browse an encyclopedia of wild ingredients found in Denmark. You can sort ingredients by season,
-      type of
-      plant, or alphabetically. Click on an ingredient to find a detailed description, an explanation of its natural
-      surroundings and sensory qualities, guidelines for preparation and use in the kitchen, suggested recipes, and
-      notes on
-      the risks of mistaking it for another plant.
-    </p>
-    <h2 style="text-align: center; padding-top: 5rem">All ingredients</h2>
-    <section class="dropdownGrid">
-      <div class="dropdown">
-        <button>Landscape</button>
-        <div class="content">
-          <a href="">Sommer</a>
-          <a href="">Efterår</a>
-          <a href="">Vinter</a>
-          <a href="">Forår</a>
+      <h1 class="h1_overskrift">Ingredients</h1>
+      <h2 class="tekst1">Introduction</h2>
+      <p class="tekst">
+        Below you can browse an encyclopedia of wild ingredients found in
+        Denmark. You can sort ingredients by season, type of plant, or
+        alphabetically. Click on an ingredient to find a detailed description,
+        an explanation of its natural surroundings and sensory qualities,
+        guidelines for preparation and use in the kitchen, suggested recipes,
+        and notes on the risks of mistaking it for another plant.
+      </p>
+      <h2 style="text-align: center; padding-top: 5rem">All ingredients</h2>
+      <section class="grid3">
+        <div class="dropdown">
+          <button>Landscape ▼</button>
+          <div class="content">
+            <a href="">Summer</a>
+            <a href="">Autumn</a>
+            <a href="">Winter</a>
+            <a href="">Spring</a>
+          </div>
         </div>
-      </div>
 
-      <div class="dropdown">
-        <button>Type</button>
-        <div class="content">
-          <a href="">Sommer</a>
-          <a href="">Efterår</a>
-          <a href="">Vinter</a>
-          <a href="">Forår</a>
+        <div class="dropdown">
+          <button>Type ▼</button>
+          <div class="content">
+            <a href="">Seaweed</a>
+            <a href="">Flower</a>
+            <a href="">Shrubs and trees</a>
+            <a href="">Mushrooms</a>
+            <a href="">Herbs and smaller plants</a>
+            <a href="">Beach herbs</a>
+          </div>
         </div>
-      </div>
 
-      <div class="dropdown">
-        <button>A - Z</button>
-        <div class="content">
-          <a href="">Sommer</a>
-          <a href="">Efterår</a>
-          <a href="">Vinter</a>
-          <a href="">Forår</a>
+        <div class="dropdown">
+          <button>A - Z ▼</button>
+          <div class="content">
+            <a href="">A - D</a>
+            <a href="">E - H</a>
+            <a href="">I - L</a>
+            <a href="">M - P</a>
+            <a href="">Q - T</a>
+            <a href="">U - Z</a>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
+      <section class="søgBox">Search..</section>
 
-    <section>
-      <div class="beer_container"></div>
-    </section>
+      <section>
+        <div class="beer_container"></div>
+      </section>
 
+      <footer>
+        <img
+          style="padding-top: 125px"
+          src="img/footer_wave.svg"
+          alt="Bølge med svampe"
+        />
+        <div class="footer_text">
+          <a href=""><h2>Need help?</h2></a>
+          <a href=""><h3>Ate something you shouldn't have?</h3></a>
+        </div>
+        <div class="footer_container">
+          <div>
+            <h3>Contact</h3>
+            <p>vild.mad@gmail.com</p>
+          </div>
+          <img class="img_footer" src="img/logo2.svg" alt="" />
+        </div>
+      </footer>
+    </main>
+    <script src="raavarer.js"></script>
+    <script src="menu.js"></script>
+  </body>
 
+  <template id="foodTemplate">
+    <article class="smallFood">
+      <a href="enkelt.html">
+        <h3 class="h3_overskrift">Karl Johan</h3>
+        <h4 class="h4_overskrift">Svamp</h4>
+        <div class="beer_image_container">
+          <img
+            class="main_img"
+            src="https://vildmadv2.vps.webdock.io/application/files/4316/2436/8826/Brondkarse_ravarkort_app.png"
+            alt=""
+          />
+        </div>
+        <!-- <img src="img/snefnug3.svg" alt="snefnug3"> -->
+      </a>
+    </article>
+  </template>
 
-    <footer>
-    </footer>
-
-  </main>
-  <script src="raavarer.js"></script>
-  <script src="menu.js"></script>
-
-
-</body>
-
-<template id="foodTemplate">
-  <article class="smallFood">
-    <a href="enkelt.html">
-      <h3 class="h3_overskrift">Karl Johan</h3>
-      <h4 class="h4_overskrift">Svamp</h4>
-      <div class="beer_image_container">
-        <img class="main_img"
-          src="https://vildmadv2.vps.webdock.io/application/files/4316/2436/8826/Brondkarse_ravarkort_app.png" alt="">
-      </div>
-      <!-- <img src="img/snefnug3.svg" alt="snefnug3"> -->
-    </a>
-  </article>
-
-</template>
-
-<!-- 
+  <!-- 
 <div class="dropdown">
   <button>A - Z</button>
   <div class="content">
@@ -140,5 +160,4 @@
   <h3>Contact</h3>
   <p>vild.mad@gmail.com</p>
 </footer> -->
-
 </html>
