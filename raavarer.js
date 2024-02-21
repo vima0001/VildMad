@@ -17,7 +17,6 @@ function showFoods(foods) {
 }
 
 function showFood(food) {
-  console.log("madder");
   //Går i HTML og fanger templaten
   const template = document.querySelector("#foodTemplate").content;
   const copy = template.cloneNode(true);
