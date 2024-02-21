@@ -55,13 +55,15 @@
   nav.active .menu {
     display: block;
     position: absolute;
-    top: 60px;
+    top: 200px;
+
     left: 0;
     width: 100%;
     z-index: 1;
     height: 100%;
     font-family: "futura-pt", sans-serif;
     font-weight: 500;
+    background-color: white;
   }
 
   nav.active .menu li {
@@ -164,6 +166,7 @@
     display: flex;
     list-style: none;
     font-family: "futura";
+    white-space: nowrap;
   }
 
   .menu li {

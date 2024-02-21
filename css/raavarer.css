@@ -65,6 +65,8 @@
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
   padding-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 .beer_image_container {
@@ -83,6 +85,12 @@
   gap: 1rem;
 }
 
+.grid3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
 /*ændrer grid ved mindre skærmstørrelser*/
 @media (max-width: 800px) {
   /* .smallFood {
@@ -95,6 +103,31 @@
     grid-template-columns: 1fr;
     gap: 7%;
     margin-bottom: 3%;
+  }
+  .tekst {
+    max-width: 700px;
+    margin: 5%;
+    /* padding: auto; */
+  }
+
+  .søgBox {
+    position: relative;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    left: 0;
+    margin-top: 10px;
+    color: green;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    position: relative;
+    margin: 5%;
   }
 }
 
@@ -140,9 +173,4 @@
 
 .dropdown a:hover {
   background-color: #517d5b14;
-}
-.grid3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
 }

@@ -48,6 +48,34 @@ body {
   background-color: #f1f1f1;
 }
 
+.footer_luft {
+  margin-top: 5%;
+  margin: 2%;
+}
+
+.luft {
+  margin: 7%;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.footer_luft_top {
+  margin-top: 7%;
+}
+
+.footer_text {
+  margin-top: 5%;
+  color: var(--green);
+}
+
+@media screen and (max-width: 768px) {
+  .footer_text {
+    margin-top: 5%;
+    color: var(--green);
+    text-decoration: none;
+  }
+}
+
 /* --------------- Styling af a-tags --------------- */
 /* Bestemmer at der ikke skal være nogen styling af links, de skal ikke understreges og 
 heller ikke se anderledes ud efter de er blevet klikket på */

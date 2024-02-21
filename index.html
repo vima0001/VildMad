@@ -1,124 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/menu.css" />
-    <link rel="stylesheet" href="css/generel.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <title>Forside</title>
-  </head>
 
-  <body>
-    <header>
-        <div class="logo">
-            <a href="index.html">
-              <img src="img/logo2.svg" alt="Logo" />
-            </a>
-          </div>
-          <nav>
-            <ul class="menu" id="underline_container">
-              <li class="underline">
-                <a href="spil.html">Foraging game</a>
-              </li>
-              <li class="underline"><a href="raavarer.html">Foraging food</a></li>
-              <li class="underline"><a href="#">Recipes</a></li>
-            </ul>
-            <div class="burger">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-            </div>
-          </nav>
-     
-     
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/generel.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <title>Forside</title>
+</head>
 
-    <main>
-      <div class="home">
-        <video muted loop autoplay>
-          <source
-            src="https://amalieelle.dk/video/forside_video.mp4"
-            type="video/mp4"
-          />
-        </video>
-        <div class="home-content">
-          <h1>-Your guide to foraging</h1>
-        </div>
-        
-        <img class="half_wave" src="img/half_wave.svg" alt="">
-        <img class="foto" src="img/logo_forside.svg" alt="" />
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo2.svg" alt="Logo" />
+      </a>
+    </div>
+    <nav>
+      <ul class="menu" id="underline_container">
+        <li class="underline">
+          <a href="spil.html">Foraging game</a>
+        </li>
+        <li class="underline"><a href="raavarer.html">Foraging food</a></li>
+        <li class="underline"><a href="#">Recipes</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
       </div>
-      
-      <div class="grid_1_1">
-        <a href="spil.html">
-          <div class="boks1">Play the foraging game</div>
-        </a>
+    </nav>
+
+
+  </header>
+
+  <main>
+    <div class="home">
+      <video muted loop autoplay>
+        <source src="https://amalieelle.dk/video/forside_video.mp4" type="video/mp4" />
+      </video>
+      <div class="home-content">
+        <h1>-Your guide to foraging</h1>
+      </div>
+
+      <img class="half_wave" src="img/half_wave.svg" alt="">
+      <img class="foto" src="img/logo_forside.svg" alt="" />
+    </div>
+
+    <div class="grid_1_1">
+      <a href="spil.html">
+        <div class="boks1">Play the foraging game</div>
+      </a>
+      <a href="raavarer.html">
         <div class="boks2">Ingredients</div>
+      </a>
+    </div>
+    <img src="img/halvforlystelse.png" alt="" class="tivoli_mobil" />
+    <div class="grid_1_1_tivoli">
+      <div>
+        <h1>
+          Participate in our competition and win a trip to a amusement park for your
+          entire class!
+        </h1>
+        <form name="Login" method="POST">
+          <!-- <label for="email">Skole <input type="text" name="name" id="email_brugernavn" required placeholder="Vælg din skole her"></label> -->
+          <label for="first name">First name <input type="text" name="email" id="email" required
+              placeholder="Write your first name here"></label>
+
+          <label for="last name">Last name <input type="text" name="email" id="email" required
+              placeholder="Write your last name here"></label>
+
+          <label for="mail">Mail <input type="text" name="email" id="email" required
+              placeholder="Write your mail here"></label>
+
+          <label for="grade" id="klassetrin">Pick your school
+            <select name="skole" id="skole">
+              <option>Choose your school</option>
+              <option>School 1</option>
+              <option>School 2</option>
+              <option>School 3</option>
+              <option>School 4</option>
+              <option>School 5</option>
+              <option>School 6</option>
+            </select>
+          </label>
+
+          <label for="grade" id="klassetrin">Pick your grade
+            <select name="skole" id="skole">
+              <option>Choose your grade</option>
+              <option>0. grade</option>
+              <option>1. grade</option>
+              <option>2. grade</option>
+              <option>3. grade</option>
+              <option>4. grade</option>
+              <option>5. grade</option>
+              <option>6. grade</option>
+              <option>7. grade</option>
+              <option>8. grade</option>
+              <option>9. grade</option>
+            </select></label>
+
+          <button>Enter</button>
+        </form>
       </div>
-      <img src="img/tivoli.png" alt="" class="tivoli_mobil" />
-      <div class="grid_1_1_tivoli">
-        <div>
-          <h1>
-            Participate in our competition and win a trip to Tivoli for your
-            entire class!
-          </h1>
-          <form name="Login" method="POST">
-            <!-- <label for="email">Skole <input type="text" name="name" id="email_brugernavn" required placeholder="Vælg din skole her"></label> -->
-            <label for="first name">First name <input type="text" name="email" id="email" required
-                placeholder="Write your first name here"></label>
-
-        <label for="last name">Last name <input type="text" name="email" id="email" required
-                placeholder="Write your last name here"></label>
-            
-              <label for="mail">Mail <input type="text" name="email" id="email" required
-                placeholder="Write your mail here"></label>
-                
-                <label for="grade" id="klassetrin">Pick your school
-              <select name="skole" id="skole">
-                <option>School</option>
-                <option>School</option>
-                <option>School</option>
-                <option>School</option>
-                <option>School</option>
-                <option>School</option>
-              </select>
-            </label>
-
-            <label for="grade" id="klassetrin">Pick your grade
-                <select name="skole" id="skole">
-                    <option>School</option>
-                    <option>School</option>
-                    <option>School</option>
-                    <option>School</option>
-                    <option>School</option>
-                    <option>School</option>
-                </select></label>
-           
-            <button>Enter</button>
-          </form>
-        </div>
-        <div class="tivoli_desktop_div">
-        <img src="img/tivoli_desktop.webp" alt="" class="tivoli_desktop">
-        </div>
-        </div>
+      <div class="tivoli_desktop_div">
+        <img src="img/forlystelsespark.png" alt="" class="tivoli_desktop">
       </div>
-    </main>
+    </div>
+    </div>
+  </main>
 
-    <footer>
-      <img src="img/footer_wave.svg" alt="">
+  <footer>
+    <img class="footer_luft_top" src="img/footer_wave.svg" alt="">
+    <div class="footer_luft">
       <div class="footer_text">
-        <a href=""><h2>Need help?</h2></a>
-        <a href=""><h3>Ate something you shouldn't have?</h3></a>
+        <a href="">
+          <h2>Need help?</h2>
+        </a>
+        <a href="">
+          <h3>Ate something you shouldn't have?</h3>
+        </a>
       </div>
       <div class="footer_container">
         <div>
-      <h3>Contact</h3>
-      <p>vild.mad@gmail.com</p>
+          <h3>Contact</h3>
+          <p>vild.mad@gmail.com</p>
+        </div>
+        <img class="img_footer" src="img/logo2.svg" alt="">
+      </div>
     </div>
-      <img class="img_footer" src="img/logo2.svg" alt="">
-    </div>
-    </footer>
-    <script src="menu.js"></script>
-  </body>
+  </footer>
+  <script src="menu.js"></script>
+</body>
+
 </html>

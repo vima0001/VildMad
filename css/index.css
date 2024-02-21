@@ -83,6 +83,19 @@
     top: -10%;
     left: 10px;
   }
+
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .half_wave {
+    position: absolute;
+    bottom: 0;
+    display: none;
+  }
 }
 
 /* DESKTOP */
@@ -101,6 +114,7 @@
     color: #ffff;
     font-family: "Pathway Gothic One", sans-serif;
     text-decoration: none;
+    font-size: 1.7rem;
   }
 
   .boks2 {
@@ -110,6 +124,7 @@
     padding-top: 9rem;
     color: #ffff;
     font-family: "Pathway Gothic One", sans-serif;
+    font-size: 1.7rem;
   }
 
   .tivoli_mobil {
@@ -190,20 +205,25 @@
     left: 50rem;
     top: 30vh;
   }
+
+  /*video*/
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .half_wave {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
-/*video*/
-video {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.half_wave {
+/* .half_wave {
   position: absolute;
   bottom: 0;
-}
+} */
 
 /*footer*/
 .img_footer {
