@@ -23,6 +23,11 @@ function showFood(food) {
   copy.querySelector(".h3_overskrift").textContent = food.name;
   copy.querySelector(".h4_overskrift").textContent = food.catgories;
   copy.querySelector(".main_img").src = food.img;
-  // document.querySelector(".main_img").src = `https://vildmadv2.vps.webdock.io/application/files/4316/2436/${food.id}.png`;
+
+  // Denne gør at man kommer til det rigtige produkt når man klikker inde fra produktlisten
+  copy.querySelector("a").href= `enkelt.html?id=${food.id}`
+  
+// Appende
   document.querySelector(".beer_container").appendChild(copy);
 }
+
