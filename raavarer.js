@@ -24,7 +24,6 @@ function showFood(food) {
   copy.querySelector(".h3_overskrift").textContent = food.name;
   copy.querySelector(".h4_overskrift").textContent = food.catgories;
   copy.querySelector(".main_img").src = food.img;
-  //Billedet skifter ikke fordi linket driller
   // document.querySelector(".main_img").src = `https://vildmadv2.vps.webdock.io/application/files/4316/2436/${food.id}.png`;
   document.querySelector(".beer_container").appendChild(copy);
 }

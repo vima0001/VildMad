@@ -45,11 +45,20 @@
   position: relative;
   width: 400px;
   height: 50px;
-  background-color: white;
-  left: 35%;
+  left: 42%;
   margin-top: 10px;
   color: green;
   padding: 10px;
+  
+}
+
+#Search{
+  height: 2.5rem;
+}
+
+.søgBox button{
+  height: 2.5rem;
+width: 2.5rem;
 }
 
 .grid3 {
