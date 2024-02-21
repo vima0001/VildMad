@@ -104,3 +104,8 @@ a::after {
 footer {
   color: var(--green);
 }
+
+/* Understregning af den side man er inde på */
+.underline_a{
+  text-decoration: underline;
+}
