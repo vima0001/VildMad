@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/raavarer.css" />
   <link rel="stylesheet" href="css/generel.css" />
   <link rel="stylesheet" href="css/menu.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
@@ -33,19 +34,21 @@
     </nav>
   </header>
   <main>
-    <div class="container">
+    <!-- <div class="container">
       <img src="https://unsplash.it/1400/800" alt="" />
-      <h1 class="overskrift">Your matches</h1>
-    </div>
-
+      <h1 class="overskrift">Ingredients</h1>
+    </div> -->
+    <h1 class="h1_overskrift">Ingredients</h1>
     <h2 class="tekst1">Introduction</h2>
     <p class="tekst">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor
-      quibusdam ut, quasi excepturi libero itaque commodi est. Nobis atque
-      maxime pariatur tenetur dolores beatae consequatur repudiandae, nisi
-      deserunt reiciendis sint?
+      Below you can browse an encyclopedia of wild ingredients found in Denmark. You can sort ingredients by season,
+      type of
+      plant, or alphabetically. Click on an ingredient to find a detailed description, an explanation of its natural
+      surroundings and sensory qualities, guidelines for preparation and use in the kitchen, suggested recipes, and
+      notes on
+      the risks of mistaking it for another plant.
     </p>
-    <h2 style="text-align: center; padding-top: 5rem">Alle råvarer</h2>
+    <h2 style="text-align: center; padding-top: 5rem">All ingredients</h2>
     <section class="dropdownGrid">
       <div class="dropdown">
         <button>Landscape</button>
@@ -79,18 +82,9 @@
     </section>
 
 
-    <template id="foodTemplate">
-      <div class="grid3">
-        <article class="smallFood">
-          <h3 class="h3_overskrift">Karl Johan</h3>
-          <h4 class="h4_overskrift">Svamp</h4>
-          <img class="main_img"
-            src="https://vildmadv2.vps.webdock.io/application/files/4316/2436/8826/Brondkarse_ravarkort_app.png" alt="">
-          <!-- <img src="img/snefnug3.svg" alt="snefnug3"> -->
-        </article>
-      </div>
-    </template>
-
+    <section>
+      <div class="beer_container"></div>
+    </section>
 
 
 
@@ -100,7 +94,24 @@
   </main>
   <script src="raavarer.js"></script>
   <script src="menu.js"></script>
+
+
 </body>
+
+<template id="foodTemplate">
+  <article class="smallFood">
+    <a href="enkelt.html">
+      <h3 class="h3_overskrift">Karl Johan</h3>
+      <h4 class="h4_overskrift">Svamp</h4>
+      <div class="beer_image_container">
+        <img class="main_img"
+          src="https://vildmadv2.vps.webdock.io/application/files/4316/2436/8826/Brondkarse_ravarkort_app.png" alt="">
+      </div>
+      <!-- <img src="img/snefnug3.svg" alt="snefnug3"> -->
+    </a>
+  </article>
+
+</template>
 
 <!-- 
 <div class="dropdown">
