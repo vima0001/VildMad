@@ -59,8 +59,8 @@
     text-align: center;
   }
   /* .all_seasons {
-    padding: 50% 15%;
-  } */
+      padding: 50% 15%;
+    } */
 
   .all_seasons img {
     width: 100%;
@@ -113,6 +113,9 @@
 .hide {
   display: none;
 }
+/* 
+
+
 h2 {
   font-size: 3em;
 }
@@ -142,6 +145,7 @@ h2 {
   position: relative;
   width: 2.2em;
   height: 3.3em;
+  border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,10 +163,11 @@ h2 {
   content: "";
   position: absolute;
   inset: 0;
+  border-radius: 7px;
   /* opacity: 0.5; */
   background: var(--summer);
   /* background-image: url("img/vendespil.png"); varför fuck?
-  background-size: cover; */
+    background-size: cover; */
   transition: 0.25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;
@@ -182,6 +187,12 @@ h2 {
   color: #fff;
 }
 
+/*tilbage knappen*/
+.summer_btn {
+  border: none;
+  place-self: start;
+}
+
 /* winter */
 
 .wintercolors {
@@ -199,7 +210,7 @@ h2 {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  background-color: #f8edd2;
+  background-color: #d2e4f0;
   padding: 20px 40px;
 }
 
@@ -207,6 +218,7 @@ h2 {
   position: relative;
   width: 2.2em;
   height: 3.3em;
+  border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,10 +236,11 @@ h2 {
   content: "";
   position: absolute;
   inset: 0;
+  border-radius: 7px;
   /* opacity: 0.5; */
   background: var(--winter);
   /* background-image: url("img/vendespil.png"); varför fuck?
-  background-size: cover; */
+    background-size: cover; */
   transition: 0.25s;
   transform: rotateY(0deg);
   backface-visibility: hidden;
@@ -247,6 +260,158 @@ h2 {
   color: #fff;
 }
 
+/*tilbage knappen*/
+.winter_btn {
+  border: none;
+  place-self: start;
+}
+
+/* spring */
+
+.springcolors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--spring);
+  min-height: 100vh;
+}
+
+.springcontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #d3e9da;
+  padding: 20px 40px;
+}
+
+.springitem {
+  position: relative;
+  width: 2.2em;
+  height: 3.3em;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  background: #fff;
+  transform: rotateY(180deg);
+  transition: 0.25s;
+}
+
+.springitem.boxOpen {
+  transform: rotateY(0deg);
+}
+
+.springitem::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 7px;
+  /* opacity: 0.5; */
+  background: var(--spring);
+  /* background-image: url("img/vendespil.png"); varför fuck?
+    background-size: cover; */
+  transition: 0.25s;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+}
+
+.springreset {
+  padding: 15px 20px;
+  color: black;
+  background: #fff;
+  border: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.springreset:focus {
+  background: var(--spring);
+  color: #fff;
+}
+
+/*tilbage knappen*/
+.spring_btn {
+  border: none;
+  place-self: start;
+}
+
+/* fall */
+
+.fallcolors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--fall);
+  min-height: 100vh;
+}
+
+.fallcontainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #f9d8c6;
+  padding: 20px 40px;
+}
+
+.fallitem {
+  position: relative;
+  width: 2.2em;
+  height: 3.3em;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  background: #fff;
+  transform: rotateY(180deg);
+  transition: 0.25s;
+}
+
+.fallitem.boxOpen {
+  transform: rotateY(0deg);
+}
+
+.fallitem::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 7px;
+  /* opacity: 0.5; */
+  background: var(--fall);
+  /* background-image: url("img/vendespil.png"); varför fuck?
+    background-size: cover; */
+  transition: 0.25s;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+}
+
+.fallreset {
+  padding: 15px 20px;
+  color: black;
+  background: #fff;
+  border: none;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.fallreset:focus {
+  background: var(--fall);
+  color: #fff;
+}
+
+/*tilbage knappen*/
+.fall_btn {
+  border: none;
+  place-self: start;
+}
+
 .boxOpen:after,
 .boxMatch:after {
   transform: rotateY(180deg);
@@ -263,8 +428,8 @@ h2 {
 }
 
 /* main {
-  overflow: hidden;
-} */
+    overflow: hidden;
+  } */
 
 header {
   background-color: white;
